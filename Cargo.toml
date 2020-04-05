@@ -1,0 +1,12 @@
+[package]
+name = "ava"
+version = "0.1.0"
+authors = ["Matous Hybl <hyblmatous@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+huelib = "0.3.0"
+tui = { git = "https://github.com/fdehau/tui-rs.git", branch = "master", features = ["termion"]}
+termion = "1.5.5"
